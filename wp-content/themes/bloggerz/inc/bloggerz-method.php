@@ -154,7 +154,7 @@ if ( ! function_exists( 'bloggerz_default_menu' ) ) :
 	*/
 	function bloggerz_default_menu() {
 
-		echo '<ul id="" class="wp-menu"><li class="page_item"><a href="/">Accueil</a></li><li class="page_item"><a href="/?post_type=forum">Recherche partenaire</a></li>'. wp_list_pages( 'title_li=&echo=0' ) .'</ul>';
+		echo '<ul id="" class="wp-menu"><li class="page_item"><a href="/">Accueil</a></li><li class="page_item"><a href="/?forum=recherche-partenaire">Recherche partenaire</a></li>'. wp_list_pages( 'title_li=&echo=0' ) .'</ul>';
 
 	}
 endif;

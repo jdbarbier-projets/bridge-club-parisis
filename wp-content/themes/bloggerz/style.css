@@ -110,6 +110,45 @@ Browser Upgrade Prompt
 /* ==========================================================================
 Author's custom styles
 ========================================================================== */
+
+body.bbpress .post-section {
+    padding: 20px;
+}
+ 
+#bbpress-forums ul.forum-titles li {
+    font-size: 14px;
+}
+
+.bbp-logged-in {
+    padding: 15px;
+}
+
+.bbp-logged-in h4 {
+    margin-top: 0px;
+}
+
+.bbp-login-form .bbp-submit-wrapper {
+    text-align: center;
+    float: none;
+    margin-bottom: 15px;
+}
+
+body.bbpress #bbpress-forums .bbp-login-form {
+    width: 50%;
+    border: 1px solid #4a88c2;
+    margin: 50px auto 10px auto;
+    padding: 15px;
+}
+
+body.bbpress #bbpress-forums .bbp-login-form fieldset legend {
+    color: #4a88c2;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px; 
+}
+
 /*=================================
 =         1. TypoGraphy            =
 =================================*/
@@ -577,7 +616,7 @@ table tr th{
 =====================================*/
 
 .main-section {
-  padding: 101px 15px 79px;
+  padding: 50px 15px 79px;
 }
 .left-section {
   float: left;

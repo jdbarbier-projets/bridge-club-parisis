@@ -333,7 +333,7 @@ class Walker_Comment extends Walker {
 						<?php
 							/* translators: %s: comment author link */
 							printf( __( '%s <span class="says">says:</span>' ),
-								sprintf( '%s', get_comment_author_link( $comment ) )
+								sprintf( '<b class="fn">%s</b>', get_comment_author_link( $comment ) )
 							);
 						?>
 					</div><!-- .comment-author -->

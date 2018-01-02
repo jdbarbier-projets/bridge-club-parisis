@@ -21,11 +21,6 @@
 	endif;
 	?>
 
-	<div class="clearfix post-info">
-		<?php bloggerz_post_meta_author(); ?>
-		<?php bloggerz_post_meta_date(); ?>
-	</div> <!--  .clearfix -->
-
 	<div class="post-img">
 		<?php bloggerz_post_thumbnail(); ?>
 	</div> <!--  .post-img -->
@@ -57,7 +52,6 @@
 
 		if ( ! is_singular( ) ) : ?>
 			<div class="clearfix">
-				<span class="post-comment"><i class="fa fa-comments" aria-hidden="true"></i><?php bloggerz_post_comment_count(); ?></span>
 				<?php bloggerz_read_more_link(); ?>
 			</div> <!--  .clearfix -->
 		<?php endif; ?>

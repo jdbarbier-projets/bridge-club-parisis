@@ -13,11 +13,6 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
-	<div class="post-bottom clearfix">
-		<span class="post-comment"><i class="fa fa-comments" aria-hidden="true"></i><?php bloggerz_post_comment_count(); ?></span>
-
-	</div>
-
 	<div class="post-comments">
 			<?php
 				wp_list_comments( array(

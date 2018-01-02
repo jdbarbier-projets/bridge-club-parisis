@@ -5,6 +5,12 @@
 * @package Bloggerz
 */
 
+
+function custom_excerpt_length( $length ) {
+    return 35;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
 /**
 * Retrieve the register Google Fonts
 */
